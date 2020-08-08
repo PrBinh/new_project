@@ -9,7 +9,8 @@ screen=pygame.display.set_mode((width, height))
  
  # 3 - Load images
 player = pygame.image.load("resources/images/dude.png")
- 
+grass = pygame.image.load("resources/images/grass.png")
+castle = pygame.image.load("resources/images/castle.png")
  # 4 - keep looping through
 while 1:
      # 5 - clear the screen before drawing it again
