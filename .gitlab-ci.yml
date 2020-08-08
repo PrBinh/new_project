@@ -8,4 +8,4 @@ test:
     - python get-pip.py
     - python -m pip install pygame
     # this configures Django application to use attached postgres database that is run on `postgres` host
-    - python thochienbinh.py run
+    - python thochienbinh.py check
