@@ -1,0 +1,12 @@
+stages:
+  - clone
+  - test
+
+test:
+  stage: test
+  script:
+    - checkout
+    - python get-pip.py
+    - python -m pip install pygame
+    # this configures Django application to use attached postgres database that is run on `postgres` host
+    - echo "check source complete!"
