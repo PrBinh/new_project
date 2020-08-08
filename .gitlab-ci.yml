@@ -5,6 +5,6 @@ stages:
 test:
   stage: test
   script:
-    - pip install pygame
+    - python -m pip install pygame
     # this configures Django application to use attached postgres database that is run on `postgres` host
     - python thochienbinh.py run
